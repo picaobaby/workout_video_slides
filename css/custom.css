@@ -1,0 +1,61 @@
+/* custom styles can go here */
+
+#chapter-foo p {
+  text-transform: uppercase;
+}
+
+.reveal h2 {
+  font-size: 1.4em !important;
+}
+.fixed {
+  position: fixed;
+  z-index: 100;
+  left: 10px;
+  top: 10px;
+}
+.fixed .btn {
+  background-color: #ddd;
+  color: #fff;
+  padding: 4px;
+  margin: auto;
+  margin-right: 0;
+  text-align: center;
+  display: inline-block !important;
+  border: 0px;
+  cursor: pointer;
+  transition: all 0.3s 0s ease-in-out;
+  border-radius: 4px;
+}
+.fixed .btn:hover {
+  /* transform: scale(1.04, 1); */
+  background-color: #999;
+  text-decoration: none;
+}
+
+/* frontpage --- my addition */
+.frontpage {
+  background: #000;
+  color: white;
+  padding: 30px;
+  position: absolute;
+  text-align: left;
+  opacity: 0.8;
+  -webkit-box-shadow: -2px -1px 15px 7px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -3px -2px 30px 14px rgba(0, 0, 0, 0.425);
+  box-shadow: -4px -3px 45px 21px rgba(0, 0, 0, 0.35);
+  border-radius: 4px;
+}
+.frontpage h2 {
+  color: white;
+  font-size: 2.4rem !important;
+  margin-bottom: 30px;
+}
+.frontpage ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.frontpage li {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
